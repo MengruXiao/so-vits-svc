@@ -162,7 +162,7 @@ def vc_infer(output_format, sid, audio_path, truncated_basename, vc_transform, a
         loudness_envelope_adjustment
     )  
     model.clear_empty()
-    #构建保存文件的路径，并保存到results文件夹内
+    #构建保存文件的路径，并保存到results文件夹内(⊙o⊙)！
     str(int(time.time()))
     if not os.path.exists("results"):
         os.makedirs("results")
